@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script>
+
+            $(document).ready(function () {
+
+                start();
+               
+            });
+
+            function start() {
+                $("#fadeout").animate({
+                    top: '-=250'
+                },
+                5000,
+                "linear",
+                 function () {
+                     start();
+                 });
+            }
+        </script>
+        <style>
+            body, html{
+                margin: 0;
+                padding: 0;
+                background-color: black;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+            }
+
+            #background {
+                position: relative;
+                top: 10%;
+                height: 80%;
+                width: 99.8%;
+                background-color: black;
+                border: 1px solid white;
+                overflow: hidden;
+            }
+
+            #crawl {
+                margin: 0 auto;
+                position: relative;
+                text-align: center;
+                width: 60%;
+                height: 100%;
+                color: #ffd800;
+                -webkit-transform: perspective(500) rotateX(45deg);
+                -webkit-transform-style: preserve-3d;
+                overflow: hidden;
+            }
+
+            #crawl p {
+                font-size: 50px;
+                padding: 50px;
+                padding-right: 200px;
+                padding-left: 200px;
+                
+            }
+
+        #fadeout{
+                position:  absolute;
+              height:100%;   
+            }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div id="background">
+  <div id="crawl">
+     <div id="fadeout">
+      <p> Powder chocolate cotton candy pie danish gummi bears. Marzipan carrot cake danish halvah danish tart chocolate bar. Liquorice topping gummies tootsie roll apple pie gummi bears jujubes cupcake tootsie roll. Apple pie jelly beans chocolate cake. Pastry cookie applicake chocolate cake. Marzipan sesame snaps icing halvah gummi bears. Bear claw candy wypas cotton candy danish. Jelly beans cookie donut powder marshmallow chocolate cake brownie topping tiramisu. Ice cream lollipop wafer candy canes. Wypas pie chocolate bar ice cream candy canes cake tart. Toffee pastry tiramisu oat cake. Tiramisu cookie chupa chups bonbon lollipop liquorice pastry gummi bears. Brownie bear claw liquorice oat cake dragée tart donut applicake.
+Topping gummies oat cake sugar plum donut soufflé. Chocolate cake oat cake jelly beans sugar plum. Chocolate cake bonbon lemon drops cake sesame snaps. Powder faworki gingerbread cupcake sweet roll lemon drops macaroon. Muffin jelly-o sweet topping applicake icing chocolate cake. Cotton candy jelly-o sugar plum halvah bonbon. Wypas wafer muffin gingerbread muffin donut jelly beans. Pie chocolate bar cake caramels croissant fruitcake tootsie roll topping gingerbread. Carrot cake toffee marzipan. Tootsie roll gingerbread dessert cupcake. Applicake chocolate cake fruitcake dragée sweet wafer gingerbread lemon drops. Sesame snaps marshmallow faworki cheesecake wypas oat cake pudding bear claw marzipan.
+Sesame snaps macaroon ice cream caramels gingerbread cupcake. Soufflé fruitcake candy canes powder dragée jelly topping. Jujubes halvah powder tootsie roll sesame snaps marshmallow. Tiramisu gummi bears tart. Faworki wafer ice cream tootsie roll muffin tootsie roll. Dragée liquorice liquorice tootsie roll wafer halvah. Cotton candy candy wafer danish chocolate cake. Candy canes lollipop topping tart jelly brownie jelly macaroon. Fruitcake liquorice chocolate cake soufflé liquorice faworki tootsie roll. Croissant chocolate bar dessert gummi bears ice cream danish cake tootsie roll dessert. Donut fruitcake marzipan pie gingerbread gingerbread oat cake sesame snaps powder. Liquorice cotton candy toffee.
+Pastry sugar plum jelly donut sweet gummi bears cotton candy. Sweet roll cake bear claw marshmallow cupcake dragée ice cream cotton candy. Gingerbread wypas fruitcake carrot cake chocolate cake caramels gingerbread dragée jelly. Chupa chups donut marshmallow jujubes gummi bears sweet roll lollipop cookie. Biscuit fruitcake tart jelly beans wypas. Croissant wafer gummi bears. Muffin lollipop apple pie halvah bonbon chocolate cake pastry danish halvah. Marzipan fruitcake jelly-o carrot cake. Ice cream fruitcake toffee marshmallow chupa chups powder. Apple pie macaroon candy canes cake lemon drops powder. Chocolate brownie sweet roll pastry lemon drops chocolate cake jelly icing dragée. Cupcake cake pie cotton candy. Dessert jujubes tiramisu gummi bears icing brownie chupa chups jujubes.
+Tiramisu bonbon caramels ice cream jelly beans wypas. Croissant ice cream sweet roll bear claw. Chocolate bar lollipop sweet apple pie soufflé sesame snaps brownie cotton candy. Icing gummies applicake soufflé caramels. Soufflé chocolate bar applicake marshmallow carrot cake fruitcake cookie powder marzipan. Donut soufflé marshmallow topping jelly-o danish pastry wypas. Topping lemon drops macaroon jelly beans chocolate marshmallow. Lemon drops gummies cookie pastry powder gummi bears soufflé topping. Danish tart cotton candy croissant cupcake. Halvah fruitcake toffee chocolate oat cake. Liquorice pie brownie faworki ice cream chupa chups cupcake muffin ice cream. Sugar plum pudding wafer tootsie roll cupcake tootsie roll gummies.</p>
+         <h1>THE END.</h1>  
+      </div>        
+  </div>
+</div>
+    </body>
+</html>
